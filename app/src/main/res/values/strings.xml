@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NYTimes</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_article_list">NYTimes</string>
+    <string name="server_not_available">We are currently not able to process your request. Please check your internet connection and try again.</string>
+    <string name="empty_text">Oh Snap! We are currently not able to process your request. Please try to refresh in some time.</string>
+    <string name="networkProbTryAgain">You are currently not connected to the internet. Please check your mobile network settings and try again.</string>
+    <string name="web_view_loading">Loading...</string>
+    <string name="select_days">Select total days</string>
+    <string name="action_filter">Filter</string>
+    <string name="ny_times_most_popular">NY Times Most Popular</string>
+
+    <array name="period_values">
+        <item>"1"</item>
+        <item>"7"</item>
+        <item>"30"</item>
+    </array>
+</resources>

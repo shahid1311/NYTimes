@@ -1,0 +1,98 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="text_view_style.large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_view_style.large.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_style.large.white">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="text_view_style.large.white.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_style.large.primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="text_view_style.large.primary.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_style.medium.italic">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="text_view_style.medium">
+        <item name="android:alpha">0.9</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_view_style.medium.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_style.medium.black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_view_style.medium.white">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="text_view_style.white">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="text_view_style.medium.primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="text_view_style.small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_view_style.small_a">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_view_style.tiny">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="text_view_style.small.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_style.small.primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="text_view_style.small.accent">
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="text_view_style.small.black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_view_style.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_style.primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="text_view_style.accent">
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="text_view_style.black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

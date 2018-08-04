@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="screen_margin">5dp</dimen>
+
+    <!-- Card View Margins -->
+    <dimen name="card_view_margin_top">2dp</dimen>
+    <dimen name="card_view_margin_bottom">2dp</dimen>
+    <dimen name="card_view_margin_left">1dp</dimen>
+    <dimen name="card_view_content_padding">4dp</dimen>
+    <dimen name="card_view_card_elevation">2dp</dimen>
+    <dimen name="card_view_corner_radius">2dp</dimen>
+
+    <dimen name="icon_circle_height">45dp</dimen>
+    <dimen name="icon_circle_width">45dp</dimen>
+</resources>

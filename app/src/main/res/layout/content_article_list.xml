@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ArticleListActivity"
+    tools:showIn="@layout/activity_article_list"
+    android:padding="@dimen/screen_margin">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_articles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_articles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/screen_margin"
+                tools:listitem="@layout/item_article_view" />
+
+            <TextView
+                android:id="@+id/tv_empty_view"
+                style="@style/text_view_style.large"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/empty_text"
+                android:gravity="center"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</android.support.constraint.ConstraintLayout>
