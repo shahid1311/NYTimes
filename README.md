@@ -27,5 +27,10 @@ Here is what you will need:
 1. Run the application (Run > Run 'App'), choose either a connected device or a simulator to run on
 1. When the application loads, you will have a list of videos to choose from.  Pick any of them to view video playback
 
+# Running Tests
+
+* Use `./gradlew connectedAndroidTest` to run the tests on a connected emulator or device.
+* Use `./gradlew test` to run the unit test on your local host.
+ 
  
 Thank you for reading!
