@@ -4,14 +4,6 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
-    /*applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            output.outputFile = new File(
-                    output.outputFile.parent,
-                    output.outputFile.name.replace(".apk", "-${variant.versionName}-${variant.versionCode}.apk"))
-        }
-    }
-*/
     defaultConfig {
         applicationId "com.tliknowledge.nytimes"
         minSdkVersion rootProject.ext.minSdkVersion
