@@ -24,6 +24,10 @@ android {
             buildConfigField("String", "MOST_VIEWWED_API_KEY", "\"ab2ece2749d0474b8a8abd4fa8ce70d7\"")
         }
     }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
 }
 
 dependencies {
